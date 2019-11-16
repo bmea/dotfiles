@@ -1,0 +1,6 @@
+#!/bin/sh
+# dotfiles install
+
+mkdir -p ~/bin
+sudo apt install -y stow
+stow */
